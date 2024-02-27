@@ -1,0 +1,17 @@
+﻿Les interfaces :
+----------------
+
+1)  Contrat => Force la première classe implémentant(hérite) l'interface
+	à définir ce qui se trouve dans l'interface 
+	(IVehicule)
+
+2)  Héritage multiple : Solution en cas de besoin "d'hériter" de 2 classes différentes
+	(IBateau OU IVoiture)
+
+3)  Dissimulation/limitation : 
+	Empêche ou cache l'accès à une partie des méthodes/prop existantes
+   	(IUtilisateur et IAdmin)
+
+
+4) Ajouter des comportements spécifiques
+	(IPayement)
